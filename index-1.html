@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<!-- header avec les informations relatives aux langages utilisés et l'icon avec le titre de ma page -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portrait chinois rihab</title>
+    <link rel="icon" type="image/png" href="images/iconeR.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   <!-- lien vers le data et js -->
+        <script src="data.js"></script>
+
+        <script src="script.js"></script>
+
+<!-- liste de mes analogies pour  y accéder dès ma page d'accueil  -->
+        <section class="section0" id="accueil">
+
+
+            <nav>
+                <ul>
+                    <li> <a href="#oiseau">Oiseau</a> </li>
+                    <li> <a href="#fruit">Fruit</a> </li>
+                    <li> <a href="#instrument">Instrument</a> </li>
+                    <li> <a href="#marque">Voiture</a> </li>
+                    <li> <a href="#bijoux">Bijoux</a> </li>
+                    <li> <a href="#arbre">Arbre</a> </li>
+                    <li> <a href="#animal">Animal</a> </li>
+                </ul>
+            </nav>
+
+
+
+
+            <h4>
+                MON PORTRAIT CHINOIS
+            </h4>
+
+            <!-- pour commencer à naviguer sur ma page -->
+            <a href="#oiseau" id="btn"> JE DÉCOUVRE</a>
+
+        </section>
+        <div id="div-contenu">
+
+        </div>
+        <div class="ajouter"></div>
+
+
+        <section class="formulaire">
+            <main class="styleform">
+
+                <h3>Ajouter vos sections ! </h3>
+                <form action="" method="post" class="center">
+ <!--Création du contenu du formulaire avec les textes et titres qu'il contient, utilisation des id nécessaire dans le javascript,-->
+                    <div class="pform">
+
+                        <p class="pform2"><label class="formulaire">Mail:<br> <input type="email" name="mail"
+                                    id="courriel" placerholdeer="test@hotmail.fr">
+                            </label></p>
+                        <p class="pform2"></p>
+                        <label for="analogie">Si j'étais...<br><input type="text" name="analogie" id="analogie"
+                                placeholder="(exemple: un film )"></label>
+                        </p>
+
+                        <p class="pform2">
+                            <label for="valeurAnalogie">Je serais...<br><input type="text" name="valeurAnalogie"
+                                    id="valeurAnalogie" placeholder="(exemple: fast and furious...)"></label>
+                        </p>
+
+                        <p class="pform2"><label for="image">Image :<br><input type="link" name="image" id="image"
+                                    placeholder="Url de l'image"></label></p>
+
+                        <p class="pform2">
+                            <label for="explication"> Explications:<br><textarea name="explication" id="explication"
+                                    placeholder="(exemple: car c'est mon film préféré)" rows="5"
+                                    cols="35"></textarea></label>
+                        </p>
+
+                        <p class="envoi pform2"><label><input type="button" value="Envoyer et Créer" id="envoyé"></label></p>
+                       
+                    </div>
+                
+                
+                </form>
+ 
+            </main>
+<!-- accéder au haut de page lorsque l'on est à la dernière -->
+           <a href="#accueil" id="bas">Retour haut de page</a>
+        </section>
+        <!-- création de ma section pour les mentions légales -->
+        <section class="sectionMENTION">
+            <!-- mise en place de mes mentions dans le footer -->
+            <footer>
+                <h6 id="section8">Mentions légales</h6>
+                <div class="contenuML">
+                
+                    <h7>Mentions légales</h7>
+    
+                        <p>Ce site a été réalisé par Rihab Bouazzaoui dans le cadre d'un projet encadré par les enseignants suivants: <br>Philippe Gambette, Gaëlle Charpentier, Matthieu Berthet <br> animation de fond : <a href="https://codepen.io/aderaaij/pen/WrvayZ">codepen.com</a></p>
+                    <p id="MLimages"> Images utilisées</p>
+                    <!-- lien vers ma banque d'image -->
+                        <p> <a href="https://pixabay.com/fr/vectors/agneau-le-mouton-mignonne-cultiver-1388937/">agneau.png</a><br>
+                            <a href="https://pixabay.com/fr/vectors/past%c3%a8que-fruit-aliments-sucr%c3%a9-154510/">pasteque.png</a><br>
+                            <a href="https://pixabay.com/fr/illustrations/machine-v%c3%a9hicule-voiture-couper-6974789/">audi.png</a><br>
+                            <a href="https://pixabay.com/fr/vectors/colombe-paix-en-volant-41260/">colombe.png</a><br>
+                            <a href="https://pixabay.com/fr/vectors/violon-la-musique-33610/">guitare.png</a><br>
+                            <a href="https://pixabay.com/fr/vectors/%c3%aele-champignon-paume-palmier-l-%c3%a9t%c3%a9-1294085/">palmier.png</a><br>
+                            <a href="https://pixabay.com/fr/illustrations/anneau-or-symbole-paillettes-3409449/">bague.png</a><br>
+                        </p>
+
+                    <p id="hébergement"> Hébergement</p>
+                        <p>Hébergeur: Université Gustave Eiffel :<br>
+                             
+                            16 Boulevard Newton<br>
+                            77420 Champs-sur-Marne
+
+                        </p>
+                    <p id="collecte"> La collecte des données personnelles</p>
+                    <p id="collecteC">Le formulaire permettant la création d'une analogie personnalisée recueil votre adresse de courriel et de votre adresse IP. Pour toute question portant sur la collecte ou le traitement de vos données à caractère personnel par l'UPEM, vous pouvez saisir la personne responsable du traitement des données qui est: Gambette Philippe (philippe.gambette@univ-eiffel.fr). <br>
+                    Les fichiers détenus par l'UPEM qui comportent des données à carcatère personnel ne seront jamais transmis à des tiers et ne feront pas l'objet de commercialisation.
+                    </p>
+                
+                    <img src="images/croix.png" alt="fermer" class="fermer">
+                </div>
+            </footer>
+        </section>
+
+
+    </script>
+</body>
+
+</html>
