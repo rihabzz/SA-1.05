@@ -1,7 +1,7 @@
 SAE 105 – Produire un Site Web
 Rihab Bouazzaoui
 
-URL de mon site Web : https://etudiant.u-pem.fr/~rihab.bouazzaoui/portrait-chinois/
+URL de mon site Web : (en attente)
 
 Ensuite j’ai lancé le module Apashe en cliquant sur « start » qui indique à XAMPP de démarrer mon serveur, puis j’ai copié mon dossier « portrait-chinois » sur le dossier hotdocs.
 
